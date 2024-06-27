@@ -1,1 +1,10 @@
-# w-o-parameters-and-with-return-values.c
+#include <stdio.h>
+int fun()
+{
+   int a=99;
+   return a;
+}
+int main()
+{
+    printf("the a value is:%d",fun());
+}
